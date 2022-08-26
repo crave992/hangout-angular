@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "hangout-angular:build:production",
+            "firebaseProject": "hangout-calleuno",
+            "firebaseHostingSite": "hangout-calleuno"
+          }
         }
       }
     }

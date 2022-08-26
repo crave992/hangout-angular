@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hangout-calleuno": {
+      "hosting": {
+        "hangout-angular": [
+          "hangout-calleuno"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hangout-calleuno"
+  }
+}
